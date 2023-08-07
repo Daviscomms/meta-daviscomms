@@ -21,6 +21,7 @@ MACHINE_FEATURES:append:use-nxp-bsp = " optee jailhouse"
 # imx8mp TR01 machine
 KERNEL_DEVICETREE = " \
     freescale/${KERNEL_DEVICETREE_BASENAME}.dtb \
+    freescale/imx8mp-tr01-rpmsg.dtb \
 "
 
 UBOOT_DTB_NAME = "${KERNEL_DEVICETREE_BASENAME}.dtb"
